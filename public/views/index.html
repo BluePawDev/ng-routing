@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Angular Routing Intro</title>
+    <!-- load base library -->
+    <script type="text/javascript" src='/vendors/angular.min.js'></script>
+    <!-- load angular-route dependant on angular.min.js -->
+    <script type="text/javascript" src='/vendors/angular-route.min.js'></script>
+    <script type="text/javascript" src='/scripts/app.js'></script>
+    <link rel="stylesheet" href="/styles/main.css">
+
+  </head>
+
+  <body>
+    <main ng-app='routeApp'>
+      <!-- ng-view marks area where changes occur -->
+      <ng-view></ng-view>
+
+    </main>
+
+  </body>
+
+</html>
